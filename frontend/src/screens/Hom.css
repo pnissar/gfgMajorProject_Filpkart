@@ -1,0 +1,34 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* 🔹 Scrollable Product List */
+.overflow-x-auto {
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+}
+
+/* 🔹 Product Card */
+.shadow {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+/* 🔹 Image Styles */
+.img-fluid {
+    display: block;
+    max-width: 100%;
+}
+
+/* 🔹 Text Truncation */
+.text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

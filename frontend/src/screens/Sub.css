@@ -1,0 +1,151 @@
+/* 🌟 Main Container */
+.product-list-container {
+    background: #ffffff;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* 🌟 Title */
+.product-list-title {
+    font-size: 1.8rem;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 🌟 Divider */
+.divider {
+    border-top: 2px solid #ddd;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* 🌟 Grid Layout (Increased spacing) */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    /* 🔹 Increased gap between products */
+    justify-content: center;
+}
+
+/* 🌟 Product Card */
+.product-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 25px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: left;
+    width: 350px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* 🌟 Product Header (Increased spacing) */
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+   
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+   width: 100%;
+}
+
+/* 🌟 View More Button */
+.view-more-btn {
+    background: none;
+    border: 2px solid #007bff;
+    padding: 5px 9px;
+    /* 🔹 More padding */
+    color: #007bff;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.view-more-btn:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+/* 🌟 Product Content (More Spacing) */
+.product-content {
+    display: flex;
+    gap: 30px;
+    /* 🔹 More gap between sections */
+    margin-top: 22px;
+    /* 🔹 Increased spacing below header */
+}
+
+/* 🌟 Main Product (More padding & better alignment) */
+.main-product {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border-right: 3px solid #ddd;
+    width: 50%;
+}
+
+.main-product img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* 🌟 Product Name */
+.product-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+}
+
+
+
+/* 🌟 Side Products (More spacing) */
+.side-products {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* 🔹 Increased gap */
+    flex: 1;
+    width: 50%;
+}
+
+.side-product {
+    text-align: center;
+}
+
+.side-product img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.side-product .product-name {
+    font-size: 0.9rem;
+    width: 120px;
+    text-align: center;
+}
